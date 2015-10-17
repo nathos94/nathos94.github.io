@@ -109,4 +109,8 @@ h1 {
 	.app {
 		left:50px;
 	}
+	h1 {
+		line-height:50px;
+		font-size:32px;
+	}
 }
