@@ -1,0 +1,98 @@
+body {
+
+	font-family: 'Open Sans', sans-serif;
+	background-color:#333;
+}
+
+h1, h2, h3, h4, h5 {
+	font-weight:100;
+}
+
+h1 {
+	font-size:50px;
+	line-height:100px;
+	margin:0;
+}
+
+.nav {
+	background-color:#252525;
+	position:fixed;
+	left:0;
+	width:100px;
+	top:0;
+	bottom:0;
+}
+
+.btn {
+	height:100px;
+	width:100px;
+	color:white;
+	text-align:center;
+	font-size:30px;
+	line-height:100px;
+	cursor:pointer;
+}
+
+.btn.active {
+	background-color:#4C4C4C;
+}
+
+.btn:hover,
+.btn:focus {
+	background-color:#464646;
+}
+
+.flag {
+	height:55px;
+	width:100px;
+	background-color:white;
+	display:none;
+}
+
+.app {
+	text-align:center;
+	background-color: #333;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 100px;
+    right: 0;
+    bottom: 0;
+}
+
+.hiragana, .katakana {
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #333;
+}
+
+.katakana {
+	display:none;
+}
+
+
+.character {
+	font-size:130px;
+}
+
+.romanji {
+	border:0;
+	background:none;
+	outline:0;
+	border-bottom:1px solid #fff;
+	padding:4px 0px;
+	font-weight:100;
+	font-size:18px;
+}
+
+
+.history {
+	position:relative;
+	bottom:0;
+	margin-top:50px;
+	background:white;
+}

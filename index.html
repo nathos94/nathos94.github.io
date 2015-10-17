@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+  	<title>Japanese</title>
+
+  	<link rel="stylesheet" href="normal.css"></link>
+  	<link rel="stylesheet" href="app.css"></link>
+
+  </head>
+  <body>
+
+  	<div class="nav">
+
+  		<div class="flag"></div>
+
+  		<div class="btn btn-hiragana active">あ</div>
+  		<div class="btn btn-katakana">ア</div>
+
+  	</div>
+  	
+  	<div class="app">
+
+  		<div class="hiragana">
+
+  			<h1>Hiragana</h1>
+  			<div class="character"></div>
+  			<div class="status"></div>
+  			<input type="text" class="romanji" data-type="hiragana">
+
+  			
+  			<div class="history">
+
+  				<div class="history-row">
+
+  					<div class="number"></div>
+  					<div class="chracter"></div>
+  					<div class="input"></div>
+  					<div class="answer"></div>
+
+  				</div>
+
+  			</div>
+
+  		</div>
+
+  		<div class="katakana">
+
+  			<h1>Katakana</h1>
+  			<div class="character"></div>
+  			<div class="status"></div>
+  			<input type="text" class="romanji" data-type="katakana">
+
+  		</div>
+
+  	</div>
+
+  	<script src="jquery.js"></script>
+  	<script src="app.js"></script>
+
+  	<script>
+	  	$(document).ready( function() {
+	  		app.init();
+	  	})
+  	</script>
+
+  </body>
+</html>
